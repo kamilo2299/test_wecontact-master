@@ -1,15 +1,14 @@
-
-.breadcrumb-nav{
+.breadcrumb-nav {
   background-color: none;
 }
-.nocolor{
+.nocolor {
   background-color: transparent;
 }
-a{
+a {
   text-decoration: none;
-  color:#666666;
+  color: #666666;
 }
-a:hover{
+a:hover {
   text-decoration: none;
 }
 
@@ -17,18 +16,18 @@ a:hover{
   position: absolute;
   bottom: 20px;
   right: 20px;
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(255, 255, 255, 0.8);
   color: black;
   padding-left: 20px;
   padding-right: 20px;
 }
-p{
+p {
   /* word-break: break-all; */
   width: 10rem;
   vertical-align: middle;
   padding-top: 12%;
 }
- 
+
 .main-panel {
   transition: width 0.25s ease, margin 0.25s ease;
   width: calc(100vw - 260px);
@@ -50,4 +49,13 @@ p{
   flex-grow: 1;
 }
 
-  
+.contactos {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  height: 100%;
+}
+
+.contacto {
+  padding: 5%;
+  width: 100%;
+}

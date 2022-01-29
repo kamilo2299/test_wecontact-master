@@ -24,11 +24,13 @@
           *ngIf="!this.router.url.includes('/contact')"
           class="containerSub shadow"
         >
-          <div *ngFor="let contact of contacts" class="wrap">
-            <app-menu-card
-              [contact]="contact"
-              (routeShow)="setShow($event)"
-            ></app-menu-card>
+          <div class="contactos">
+            <div class="contacto" *ngFor="let contact of contacts">
+              <app-menu-card
+                [contact]="contact"
+                (routeShow)="setShow($event)"
+              ></app-menu-card>
+            </div>
           </div>
         </div>
       </div>
