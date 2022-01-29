@@ -1,0 +1,19 @@
+.card{
+    border-color: #0a415f;
+    border-style: solid;
+    border-width: 2px;
+    height: 100%;
+}
+
+.card-header{
+    color: #0a415f;
+}
+
+.btn{
+    margin: 1em;
+    width: 10em;
+}
+
+img{
+    width: auto;
+}

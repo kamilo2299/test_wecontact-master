@@ -1,0 +1,314 @@
+{
+  "app":{
+    "idioma.texto":"Idioma",
+    "bienvenido.texto":"Bienvenido",
+    "saludo_usuario.texto":"Hola! ",
+    "cambiar_contrasena.texto" : "Cambiar contraseña",
+    "cerrar_sesion.texto":"salir",
+    "pregunta_cambiar_contraseña.texto":"Estas seguro de desea iniciar tu contraseña",
+    "cancelar.texto":"Cancelar",
+    "inicializar.texto": "Inicializar",
+    "notificacion_cambio_contrasena.texto": "Se te ha enviado un correo electronico para que inicialices tu contraseña",
+    "listo.texto": "Listo",
+    "palabra_clave.texto": "Nombre ...",
+    "guardar.texto":"Guardar",
+    "mostrar.texto":"Mostrar",
+    "buscar.texto":"Buscar",
+    "borrar.texto":"Borrar",
+    "editar.texto":"Editar",
+    "agregar.texto":"Agregar",
+    "de.texto":"de",
+    "page.texto":"Pagina",
+    "derechos.texto":"Derechos reservados",
+    "terminos.texto":"Terminos y condiciones",
+    "privacidad.texto":"Privacidad",
+    "centro_control.texto":"Servicio técnico",
+    "contacto.texto":"Contactanos",
+    "ingresar.texto":"Ingresar",
+    "mas.texto":"Leer más",
+    "enviar.texto":"Enviar",
+    "events.texto":"Eventos",
+    "vacio.texto":"Esta vacio",
+    "return.texto":"Regresar"
+  },
+  "login":{
+    "usuario.texto":"Usuario",
+    "contrasena.texto":"Contraseña",
+    "olvidar_contrasena.texto":"Olvide mi contraseña"
+  },
+  "control_record":{
+    "titulo.texto":"Registro de control",
+    "nuevo_registro.texto":"Nuevo registro de control",
+    "nombre.texto":"Nombre",
+    "intentos_validacion.texto":"Intentos de Validación",
+    "valor.texto":"Valor",
+    "tiempo_sesiones.texto":"Tiempo de sesiones",
+    "etiqueta.texto":"Etiqueta",
+    "no_registros.texto":"No se encuentran registros",
+    "pregunta_borrar.texto":"¿Estas seguro de borrar este registro?",
+    "id.texto":"Identificador"
+  },
+  "usuarios":{
+    "titulo_lista.texto":"Usuarios",
+    "titulo_init.texto":"Inicializar contraseña de usuarios",
+    "agregar_usuario.texto":"Agregar un usuario",
+    "pregunta_eliminar.texto":"¿Estas seguro de borrar este usuario?",
+    "pregunta_init.texto":"¿Estas seguro de desea iniciar la contraseña de",
+    "confirmar_init_contrasena.texto":"Confirma tu correo electrónico para inicializar una nueva contraseña",
+    "estado.texto":"Estado",
+    "especial.texto":"Marca de super usuario",
+    "nombre.texto":"Nombre",
+    "id.texto":"Identificador",
+    "login.texto":"Login",
+    "entidad.texto":"Entidad",
+    "perfil.texto":"Perfil",
+    "mail.texto":"Correo electrónico",
+    "codigo_usuario.texto":"Código de usuario",
+    "area.texto":"Área de la entidad",
+    "labor.texto":"Área de trabajo",
+    "telefono.texto":"Teléfono",
+    "sesiones.texto":"Sesiones permitidas",
+    "convenio.texto":"Convenio",
+    "contrasena.texto":"Contraseña"
+  },
+  "perfiles":{
+    "titulo.texto":"Perfiles",
+    "pregunta_borrar.texto":"¿Estas seguro de borrar este perfil?",
+    "agregar_perfil.texto":"Agregar un perfil",
+    "estado.texto":"Estado",
+    "nombre.texto":"Nombre",
+    "descripcion.texto":"Descripción"
+  },
+  "opciones":{
+    "titulo.texto":"Opciones",
+    "acciones.texto":"Acciones",
+    "perfiles.texto":"Perfiles",
+    "perfil.texto":"Perfil",
+    "opcion.texto":"Opción",
+    "menu.texto":"Menú",
+    "nuevo.texto":"Nueva opción",
+    "nombre.texto":"Nombre",
+    "search.texto":"Busca por nombre del menú/opción",
+    "pregunta_borrar.texto":"¿Estas seguro de borrar esta opción?",
+    "acciones_perfiles.texto":"Acciones",
+    "seleccionar_perfil.texto":"Selecciona un perfil",
+    "asociar_perfil.texto":"Asociar perfil"
+  },
+  "entidades":{
+    "titulo.texto":"Entidades",
+    "pregunta_borrar.texto":"¿Estas seguro de borrar esta entidad?",
+    "agregar_entidad.texto":"Crea una entidad",
+    "codigo.texto":"Código",
+    "nombre.texto":"Nombre",
+    "nit.texto":"NIT"
+  },
+  "consultas":{
+    "titulo_OXP.texto":"Consulta de opciones por perfil",
+    "titulo_UXP.texto":"Consulta de usuarios por perfil",
+    "titulo_UXE.texto":"Consulta de usuarios por entidad",
+    "perfil.texto":"Perfil",
+    "entidad.texto":"Entidad",
+    "identificador.texto":"Identificador",
+    "nombre.texto":"Nombre de la opción",
+    "tipo.texto":"Tipo de opción",
+    "ruta.texto":"Ruta",
+    "seleccionar_perfil.texto":"Selecciona un perfil",
+    "seleccionar_entidad.texto":"Selecciona una entidad"
+  },
+  "menu":{
+    "modulo_seguridad.titulo.texto":"Modulo de seguridad",
+    "seleccionar_menu.texto":"Selecciona una opción",
+    "principal.texto":"Principal"
+  },
+  "idioma":{
+    "titulo.texto":"Idiomas",
+    "etiqueta.texto":"Etiqueta",
+    "descripcion.texto":"Descripción",
+    "id.texto":"Identificador",
+    "pregunta_borrar.texto":"¿Estas seguro de borrar este idioma?",
+    "agregar.texto":"Crea un idioma"
+  },
+  "respuesta":{
+    "titulo.texto":"Códigos de respuesta",
+    "codigo.texto":"Código",
+    "tag.texto":"Etiqueta",
+    "descripcion.texto":"Descripción",
+    "mensaje.texto":"Mensaje",
+    "pregunta_borrar.texto":"¿Estas seguro de borrar este código de respuesta?",
+    "agregar.texto":"Crea un código de respuesta",
+    "proyecto.texto":"Proyecto",
+    "clase.texto":"Clase del proyecto",
+    "json_lenguajes.texto":"Lenguajes en formato JSON"
+  },
+  "errores":{
+    "requerido.texto":"Este campo es requerido",
+    "nombre_requerido.texto":"El nombre es requerido",
+    "nit_requerido.texto":"El NIT es requerido",
+    "pass_requerida.texto":"La contraseña es requerida",
+    "usuario_reqeurido.texto":"El usuario es requerido",
+    "telefono_requerido.texto":"El telefono es requerido",
+    "area_requerido.texto":"La área de trabajo es requerido",
+    "documento_requerido.texto":"El número de documento es requerido",
+    "login_requerido.texto":"El login de registro es requerido",
+    "correo_requerido.texto":"El correo es requerido",
+    "descripcion_requerida.texto":"La descripción es requerida",
+    "intentos_requeridos.texto":"Indicar número de intentos",
+    "tiempo_sesiones_requerido.texto":"Indicar tiempo de sesiones",
+    "codigo.texto":"Indicar el código de la respuesta",
+    "tag.texto":"Indicar el TAG",
+    "proyecto.texto":"Relacionarl el nombre del proyecto",
+    "clase.texto":"Relacionar la clase del proyecto",
+    "languages.texto":"Agregar el texto en formato JSON de los mensajes con su idioma",
+    "largo.texto":"Excede el numero de caracteres"
+  },
+  "gateway":{
+    "global":{
+      "id.texto":"Identificador",
+      "pais.texto":"País",
+      "estado.texto":"Estado",
+      "codigo.texto":"Código",
+      "description.texto":"Descripción",
+      "banco.texto":"Banco",
+      "key.texto":"Llave",
+      "nombre.texto":"Nombre",
+      "destino.texto":"Destino",
+      "interface.texto":"Tipo de interface",
+      "canal.texto":"Canal",
+      "version.texto":"Versión",
+      "transaction.texto":"Transacción",
+      "fecha_Activa.texto":"Fecha de activación",
+      "fecha_exp.texto":"Fecha de expiración",
+      "tipo.texto":"Tipo",
+      "forzada.texto":"Forzada",
+      "valid_pin.texto":"Valida Pin",
+      "move_pin.texto":"Traslada Pin",
+      "monetaria.texto":"Monetaria",
+      "local.texto":"Local",
+      "orden.texto":"Orden",
+      "key_pin_block.texto":"Llave de Pin block",
+      "key_move_key.texto":"Llave de traslado de Pin",
+      "default_pocket.texto":"Bolsillo por defecto",
+      "limit_amount.texto":"Limite de monto",
+      "max_amount.texto":"Máximo monto",
+      "server_name.texto":"Nombre del servidor",
+      "reversible.texto":"Reversible",
+      "ip_remote.texto":"IP remota",
+      "ip_principal_read.texto":"IP principal de lectura",
+      "ip_principal_write.texto":"IP principal de escritura",
+      "ip_alternate_read.texto":"IP secundaria de lectura",
+      "ip_alternate_write.texto":"IP secundaria de escritura",
+      "url.texto":"URL",
+      "metodo.texto":"Metodo",
+      "web_server_name.texto":"Nombre del servidor web",
+      "campo_error.texto":"Campo del valor de error",
+      "pos_error.texto":"Posición del valor de error",
+      "long_error.texto":"Longitud del valor de error",
+      "valor_exito.texto":"Valor de exito",
+      "ip_socket_admin.texto":"IP del socket administrador",
+      "socket_admin_campo_error.texto":"Campo del valor de error del socket administrador",
+      "socket_admin_pos_error.texto":"Posición del valor de error del socket administrador",
+      "socket_admin_long_error.texto":"Longitud del valor de error del socket administrador",
+      "socket_admin_valor_exito.texto":"Valor de exito del socket administrador",
+      "valor_exito_transaction.texto":"Valor exitoso de la transacción",
+      "memoria.texto":"Memoria",
+      "prioridad.texto":"Secuencia",
+      "timeout.texto":"Timeout"
+    },"dashboard":{
+      "titulo.texto":"Tablero de control",
+      "description.texto":"Aquí puedes ver los indicadores de tu negocio"
+    },"control_record":{
+      "dias.texto":"Días",
+      "entidad_id.texto":"Identificador de la entidad",
+      "entidad_nombre.texto":"Nombre de la entidad",
+      "app_nombre.texto":"Nombre de la aplicación",
+      "ruta_datos.texto":"Ruta de ruta_datos",
+      "ruta_objetos.texto":"Ruta de objetos",
+      "ruta_imagenes.texto":"Ruta de imagenes",
+      "ruta_proyecto.texto":"Ruta del proyecto",
+      "gateway.texto":"Número de consecutivo Gateway",
+      "dia_permanencia.texto":"Número de días de permanencia",
+      "secuencia.texto":"Número de secuencia cierre",
+      "tiempo_reverso.texto":"Timeout de reverso",
+      "intentos_reverso.texto":"Número de intentos de reverso"
+    },"country":{
+      "titulo.texto":"País",
+      "nuevo_registro.texto":"Nuevo País",
+      "pregunta_borrar.texto":"¿Estas seguro de borrar este país?"
+    },"bank":{
+      "titulo.texto":"Banco",
+      "ruta_datos.texto":"Ruta de datos",
+      "ruta_objetos.texto":"Ruta de objetos",
+      "ruta_imagenes.texto":"Ruta de imagenes",
+      "ruta_proyecto.texto":"Ruta proyecto",
+      "gateway.texto":"Número consecutivo Gateway",
+      "dia_permanencia.texto":"Número de días de permanencia",
+      "nuevo_registro.texto":"Nuevo banco",
+      "pregunta_borrar.texto":"¿Estas seguro de borrar este banco?"
+    },"key":{
+      "titulo.texto":"Llaves",
+      "keyGame.texto":"Juego de llaves",
+      "fecha_Activa.texto":"Fecha de activación",
+      "fecha_exp.texto":"Fecha de expiración",
+      "nuevo_registro.texto":"Nueva llave",
+      "pregunta_borrar.texto":"¿Estas seguro de borrar esta llave?"
+    },"channel":{
+      "titulo.texto":"Canal",
+      "bin.texto":"Bin",
+      "binDigits.texto":"Número de digitos del bin",
+      "concatBin.texto":"¿Se debe concatenar el bin?",
+      "defaultCode.texto":"Código por omisión",
+      "response.texto":"Respuesta",
+      "encryption.texto":"¿Se debe encriptar?",
+      "sessionTime.texto":"Tiempo de sesión",
+      "messageConsecutive.texto":"¿Se debe adicionar el consecuritvo del mensaje?",
+      "nuevo_registro.texto":"Nuevo canal",
+      "pregunta_borrar.texto":"¿Estas seguro de borrar este canal?"
+    },"channelType":{
+      "titulo.texto":"Tipos de canal",
+      "transactions_allowed.texto":"Número de trasacciones permitidas",
+      "nuevo_registro.texto":"Nuevo tipo de canal",
+      "pregunta_borrar.texto":"¿Estas seguro de borrar este tipo de canal?"
+    },"destiny":{
+      "titulo.texto":"Destino",
+      "nuevo_registro.texto":"Nuevo destino",
+      "pregunta_borrar.texto":"¿Estas seguro de borrar este destino?"
+    },"identification":{
+      "titulo.texto":"Tipos de identificación",
+      "tipo.texto":"Tipo",
+      "nuevo_registro.texto":"Nuevo tipo de identificación",
+      "pregunta_borrar.texto":"¿Estas seguro de borrar este tipo de identificación?"
+    },"interface":{
+      "titulo.texto":"Tipos de interfaz",
+      "nuevo_registro.texto":"Nuevo tipo de interfaz",
+      "pregunta_borrar.texto":"¿Estas seguro de borrar este tipo de interfaz?"
+    },"version":{
+      "titulo.texto":"Versiones",
+      "nuevo_registro.texto":"Nueva versión",
+      "pregunta_borrar.texto":"¿Estas seguro de borrar esta versión?"
+    },"process":{
+      "titulo.texto":"Procesos",
+      "nuevo_registro.texto":"Nuevo Proceso",
+      "pregunta_borrar.texto":"¿Estas seguro de borrar este proceso?",
+      "ip_principal_gateway.texto":"IP principal del Gateway",
+      "ip_alternate_gateway.texto":"IP secundaria del Gateway",
+      "dataqueue_name.texto":"Nombre de la data queue",
+      "dataqueue_length.texto":"Longitud de la data queue"
+    },"processTypes":{
+      "titulo.texto":"Tipos de proceso",
+      "nuevo_registro.texto":"Nuevo tipo de proceso",
+      "pregunta_borrar.texto":"¿Estas seguro de borrar este tipo de proceso?"
+    },"transaction":{
+      "titulo.texto":"Transacciones",
+      "nuevo_registro.texto":"Nuevo transacción",
+      "pregunta_borrar.texto":"¿Estas seguro de borrar esta transacción?"
+    },"transaction_event":{
+      "titulo.texto":"Eventos",
+      "nuevo_registro.texto":"Nuevo Evento de transacción",
+      "pregunta_borrar.texto":"¿Estas seguro de borrar este evento de transacción?"
+    },"communication":{
+      "titulo.texto":"Tipos de communicación",
+      "nuevo_registro.texto":"Nuevo tipo de comunicación",
+      "pregunta_borrar.texto":"¿Estas seguro de borrar este tipo de comunicación?"
+    }
+  }
+}

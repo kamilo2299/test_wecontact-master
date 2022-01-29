@@ -1,0 +1,34 @@
+<div style="overflow-x:auto;">
+<table class="table table-hover">
+  <thead class="thead table-title">
+    <tr>
+      <th  *ngFor="let title of titles" scope="col">{{title}}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of list">
+      <td *ngIf="checkbox"><label class="switch">
+          <input type="checkbox" [checked]="item.status" [disabled]="true">
+          <span class="slider round"></span>
+      </label></td>
+      <ng-container *ngFor="let attribute of attributes">
+        <ng-container *ngIf="attribute.length === 1">
+          <td>{{item[attribute[0]]}}</td>
+        </ng-container>
+        <ng-container *ngIf="attribute.length > 1">
+          <td>{{item[attribute[0]][attribute[1]]}}</td>
+        </ng-container>
+      </ng-container>
+        <ng-container *ngIf="delete" >
+      <td><button type="button" name="button" class="delete" (click)="routeDelete(item)"><i class="fa fa-trash"></i></button></td>
+      </ng-container>
+        <ng-container *ngIf="edit">
+      <td><button type="button" name="button" class="edit"  (click)="routeEdit(item)"><i class="fa fa-edit"></i></button></td>
+      </ng-container>
+      <ng-container *ngIf="other" >
+        <td><button type="button" name="button"  class="init" (click)="routeOther(item)"><i [ngClass]="'fa ' + otherIcon "></i></button></td>
+      </ng-container>
+    </tr>
+  </tbody>
+</table>
+</div>

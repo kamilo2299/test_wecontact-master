@@ -1,0 +1,314 @@
+{
+  "app":{
+    "idioma.texto":"Language",
+    "bienvenido.texto":"Welcome",
+    "saludo_usuario.texto":"Hi! ",
+    "cambiar_contrasena.texto" : "Change password",
+    "cerrar_sesion.texto":"Log out",
+    "pregunta_cambiar_contraseña.texto":"Are you sure do you want to change your password ",
+    "cancelar.texto":"Cancel",
+    "inicializar.texto": "Init",
+    "notificacion_cambio_contrasena.texto": "You will receive an email to change your password",
+    "listo.texto": "Ok",
+    "palabra_clave.texto": "Name ...",
+    "guardar.texto":"Save",
+    "mostrar.texto":"Show",
+    "buscar.texto":"Search",
+    "borrar.texto":"Delete",
+    "editar.texto":"Edit",
+    "agregar.texto":"Add",
+    "de.texto":"of",
+    "page.texto":"Page",
+    "derechos.texto":"All rights reserved",
+    "terminos.texto":"Terms & conditions",
+    "privacidad.texto":"Privacy",
+    "centro_control.texto":"Technical service",
+    "contacto.texto":"Contact us",
+    "ingresar.texto":"Enter",
+    "mas.texto":"More info",
+    "enviar.texto":"Send",
+    "events.texto":"Events",
+    "vacio.texto":"Empty",
+    "return.texto":"Return"
+    },
+    "login":{
+      "usuario.texto":"Login",
+      "contrasena.texto":"Password",
+      "olvidar_contrasena.texto":"Forgot my pass"
+    },
+    "control_record":{
+      "titulo.texto":"Control record",
+      "nuevo_registro.texto":"New control record",
+      "nombre.texto":"Name",
+      "intentos_validacion.texto":"Login attempts",
+      "valor.texto":"Value",
+      "tiempo_sesiones.texto":"session timeout",
+      "etiqueta.texto":"Label",
+      "no_registros.texto":"No records found",
+      "pregunta_borrar.texto":"Are you sure to delete this record?",
+      "id.texto":"Identifier"
+    },
+    "usuarios":{
+      "titulo_lista.texto":"Users",
+      "titulo_init.texto":"Initialize user password",
+      "agregar_usuario.texto":"Create a new user",
+      "pregunta_eliminar.texto":"Are you sure to delete this user?",
+      "pregunta_init.texto":"Are you sure to init the password of ",
+      "confirmar_init_contrasena.texto":"Confirm your email to reset you password",
+      "estado.texto":"Status",
+      "especial.texto":"Super user",
+      "nombre.texto":"Name",
+      "id.texto":"Identifier",
+      "login.texto":"Login",
+      "entidad.texto":"Entity",
+      "perfil.texto":"Profile",
+      "mail.texto":"Email",
+      "codigo_usuario.texto":"User code",
+      "area.texto":"Entity department",
+      "labor.texto":"Role",
+      "telefono.texto":"Phone number",
+      "sesiones.texto":"Allowed sessions",
+      "convenio.texto":"Alliance",
+      "contrasena.texto":"Password"
+    },
+    "perfiles":{
+      "titulo.texto":"Profiles",
+      "pregunta_borrar.texto":"Are you sure to delete this profile?",
+      "agregar_perfil.texto":"Add a new profile",
+      "estado.texto":"Status",
+      "nombre.texto":"Name",
+      "descripcion.texto":"Description"
+    },
+    "opciones":{
+      "titulo.texto":"Options",
+      "acciones.texto":"Actions",
+      "perfiles.texto":"Profiles",
+      "perfil.texto":"Profile",
+      "opcion.texto":"Option",
+      "menu.texto":"Menu",
+      "nuevo.texto":"New option",
+      "nombre.texto":"Name",
+      "search.texto":"Search option/menu by name",
+      "pregunta_borrar.texto":"Are you sure to delete this option?",
+      "acciones_perfiles.texto":"Actions",
+      "seleccionar_perfil.texto":"Select profile",
+      "asociar_perfil.texto":"Associate profile"
+    },
+    "entidades":{
+      "titulo.texto":"Entities",
+      "pregunta_borrar.texto":"Are you sure to delete this entity?",
+      "agregar_entidad.texto":"Add a new entity",
+      "codigo.texto":"Code",
+      "nombre.texto":"Name",
+      "nit.texto":"NIT"
+    },
+    "consultas":{
+      "titulo_OXP.texto":"Queries options by profile",
+      "titulo_UXP.texto":"Queries users by profile",
+      "titulo_UXE.texto":"Queries users by entity",
+      "perfil.texto":"Profile",
+      "entidad.texto":"Entity",
+      "identificador.texto":"Identifier",
+      "nombre.texto":"Option name",
+      "tipo.texto":"Option type",
+      "ruta.texto":"Path",
+      "seleccionar_perfil.texto":"Select a profile",
+      "seleccionar_entidad.texto":"Select an entity"
+    },
+    "menu":{
+      "modulo_seguridad.titulo.texto":"Security model",
+      "seleccionar_menu.texto":"Select an option",
+      "principal.texto":"Principal"
+    },
+    "idioma":{
+      "titulo.texto":"languages",
+      "etiqueta.texto":"Label",
+      "descripcion.texto":"Description",
+      "id.texto":"Id",
+      "pregunta_borrar.texto":"Are you sure to delete this language?",
+      "agregar.texto":"Add a new Language"
+    },
+    "respuesta":{
+      "titulo.texto":"Response codes",
+      "codigo.texto":"Code",
+      "tag.texto":"Tag",
+      "descripcion.texto":"Description",
+      "mensaje.texto":"Message",
+      "pregunta_borrar.texto":"Are you sure to delete this response?",
+      "agregar.texto":"Add a new response code",
+      "proyecto.texto":"Project",
+      "clase.texto":"Project's class",
+      "json_lenguajes.texto":"JSON Languages"
+    },
+    "errores":{
+      "requerido.texto":"This is required",
+      "nombre_requerido.texto":"Name required",
+      "nit_requerido.texto":"NIT required",
+      "pass_requerida.texto":"Password required",
+      "usuario_reqeurido.texto":"User login required",
+      "telefono_requerido.texto":"Phone required",
+      "area_requerido.texto":"Labor area required",
+      "documento_requerido.texto":"Document number required",
+      "login_requerido.texto":"User login required",
+      "correo_requerido.texto":"Email required",
+      "descripcion_requerida.texto":"Description required",
+      "intentos_requeridos.texto":"Indicate number of possible attempts",
+      "tiempo_sesiones_requerido.texto":"Indicate time of session",
+      "codigo.texto":"Indicate the code of the response",
+      "tag.texto":"Indicate the TAG of the response",
+      "proyecto.texto":"Indicate the project of the response is related to",
+      "clase.texto":"Indicate the class of the response is inclued",
+      "languages.texto":"Add the JSON of the message on its languages",
+      "largo.texto":"Exceeds number of characters"
+    },
+    "gateway":{
+      "global":{
+        "id.texto":"Id",
+        "pais.texto":"Country",
+        "estado.texto":"Status",
+        "codigo.texto":"Code",
+        "description.texto":"Description",
+        "banco.texto":"Bank",
+        "key.texto":"Key",
+        "nombre.texto":"Name",
+        "destino.texto":"Destiny",
+        "interface.texto":"Interface type",
+        "canal.texto":"Channel",
+        "version.texto":"Version",
+        "transaction.texto":"Transaction",
+        "fecha_Activa.texto":"Activation date",
+        "fecha_exp.texto":"Expiration date",
+        "tipo.texto":"Type",
+        "ip_remote.texto":"Remote IP",
+        "ip_principal_read.texto":"Principal IP Read",
+        "ip_principal_write.texto":"Principal IP Write",
+        "ip_alternate_read.texto":"Alternate IP Read",
+        "ip_alternate_write.texto":"Alternate IP Write",
+        "url.texto":"URL",
+        "metodo.texto":"Methodo",
+        "web_server_name.texto":"Web server name",
+        "campo_error.texto":"Field of error value",
+        "pos_error.texto":"Position of error value",
+        "long_error.texto":"Length of error value",
+        "valor_exito.texto":"Success value",
+        "ip_socket_admin.texto":"Admin's socket IP",
+        "socket_admin_campo_error.texto":"Field of error value of admin's socket",
+        "socket_admin_pos_error.texto":"Position of error value of admin's socket",
+        "socket_admin_long_error.texto":"Length of error value of admin's socket",
+        "socket_admin_valor_exito.texto":"Success value of admin's socket",
+        "valor_exito_transaction.texto":"Transaction's success value",
+        "forzada.texto":"Forced",
+        "monetaria.texto":"Monetary",
+        "local.texto":"Local",
+        "orden.texto":"Order",
+        "key_pin_block.texto":"Key Pin block",
+        "key_move_key.texto":"Key for move Pin",
+        "default_pocket.texto":"Pocket default",
+        "limit_amount.texto":"Limit amount",
+        "max_amount.texto":"Max amount",
+        "server_name.texto":"Server name",
+        "reversible.texto":"Reversable",
+        "valid_pin.texto":"Valid Pin",
+        "move_pin.texto":"Move Pin",
+        "memoria.texto":"Memory",
+        "prioridad.texto":"Sequence",
+        "timeout.texto":"Timeout"
+      },"dashboard":{
+        "titulo.texto":"Dashboard",
+        "description.texto":"Here you can set all the flags, indicators of your business"
+      },"control_record":{
+        "dias.texto":"Days",
+        "entidad_id.texto":"Entity id",
+        "entidad_nombre.texto":"Entity name",
+        "app_nombre.texto":"App name",
+        "ruta_datos.texto":"Data path",
+        "ruta_objetos.texto":"Objects path",
+        "ruta_imagenes.texto":"Images path",
+        "ruta_proyecto.texto":"Proyect path",
+        "gateway.texto":"Gateway consecutive number",
+        "dia_permanencia.texto":"Number of days of permanence",
+        "secuencia.texto":"Number of sequence closing",
+        "tiempo_reverso.texto":"Timeout of reverse",
+        "intentos_reverso.texto":"Intents of reverse"
+      },"country":{
+        "titulo.texto":"Country",
+        "nuevo_registro.texto":"New country",
+        "pregunta_borrar.texto":"Are you sure you want to delete this country?"
+      },"bank":{
+        "titulo.texto":"Bank",
+        "ruta_datos.texto":"Data path",
+        "ruta_objetos.texto":"Objects path",
+        "ruta_imagenes.texto":"Images path",
+        "ruta_proyecto.texto":"Proyect path",
+        "gateway.texto":"Gateway consecutive number",
+        "dia_permanencia.texto":"Number of days of permanence",
+        "nuevo_registro.texto":"New bank",
+        "pregunta_borrar.texto":"Are you sure you want to delete this bank?"
+      },"key":{
+        "titulo.texto":"Keys",
+        "keyGame.texto":"key game",
+        "fecha_Activa.texto":"Date activation",
+        "fecha_exp.texto":"Date expiration",
+        "nuevo_registro.texto":"New key",
+        "pregunta_borrar.texto":"Are you sure you want to delete this key?"
+      },"channel":{
+        "titulo.texto":"Channel",
+        "bin.texto":"Bin",
+        "binDigits.texto":"Bin digits",
+        "concatBin.texto":"need to concat bin?",
+        "defaultCode.texto":"Default code",
+        "response.texto":"Response",
+        "encryption.texto":"Need to encrypt?",
+        "sessionTime.texto":"Session time",
+        "messageConsecutive.texto":"Need to add message consecutive?",
+        "nuevo_registro.texto":"New channel",
+        "pregunta_borrar.texto":"Are you sure you want to delete this channel?"
+      },"channelType":{
+        "titulo.texto":"Channel type",
+        "transactions_allowed.texto":"Number of transactions allowed",
+        "nuevo_registro.texto":"New channel type",
+        "pregunta_borrar.texto":"Are you sure you want to delete this channel type?"
+      },"destiny":{
+        "titulo.texto":"Destiny",
+        "nuevo_registro.texto":"New Destiny",
+        "pregunta_borrar.texto":"Are you sure you want to delete this destiny?"
+      },"identification":{
+        "titulo.texto":"Identifications Type",
+        "tipo.texto":"Type",
+        "nuevo_registro.texto":"New Identification Type",
+        "pregunta_borrar.texto":"Are you sure you want to delete this Identification Type?"
+      },"interface":{
+        "titulo.texto":"Interfaces Type",
+        "nuevo_registro.texto":"New Interface Type",
+        "pregunta_borrar.texto":"Are you sure you want to delete this Interface Type?"
+      },"version":{
+        "titulo.texto":"Versions",
+        "nuevo_registro.texto":"New version",
+        "pregunta_borrar.texto":"Are you sure you want to delete this version?"
+      },"process":{
+        "titulo.texto":"Process",
+        "nuevo_registro.texto":"New Process",
+        "pregunta_borrar.texto":"Are you sure you want to delete this process?",
+        "ip_principal_gateway.texto":"Principal IP Gateway",
+        "ip_alternate_gateway.texto":"Alternate IP Gateway",
+        "dataqueue_name.texto":"Data queue name",
+        "dataqueue_length.texto":"Data queue length"
+      },"processTypes":{
+        "titulo.texto":"Process types",
+        "nuevo_registro.texto":"New Process type",
+        "pregunta_borrar.texto":"Are you sure you want to delete this process type?"
+      },"transaction":{
+        "titulo.texto":"Transactions",
+        "nuevo_registro.texto":"New Transaction",
+        "pregunta_borrar.texto":"Are you sure you want to delete this transaction?"
+      },"transaction_event":{
+        "titulo.texto":"Events",
+        "nuevo_registro.texto":"New Transaction event",
+        "pregunta_borrar.texto":"Are you sure you want to delete this transaction event?"
+      },"communication":{
+        "titulo.texto":"Communication types",
+        "nuevo_registro.texto":"New communication type",
+        "pregunta_borrar.texto":"Are you sure you want to delete this communication type?"
+      }
+    }
+}

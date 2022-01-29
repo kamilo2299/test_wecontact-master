@@ -1,0 +1,19 @@
+.navbar {
+    font-family: "ubuntu-light", sans-serif;
+    background-color: #0a415f!important;
+    transition: background 0.25s ease;
+    -webkit-transition: background 0.25s ease;
+    -moz-transition: background 0.25s ease;
+    -ms-transition: background 0.25s ease;
+}
+
+.btn-outline-success{
+    color: rgba(251, 0, 71,1);
+    border-color: rgba(251, 0, 71,1);
+}
+
+.btn-outline-success:hover{
+    color: #fff;
+    background-color:  rgba(251, 0, 71,1);
+    border-color: rgba(251, 0, 71,1);
+}

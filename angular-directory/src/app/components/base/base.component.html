@@ -1,0 +1,37 @@
+<div>
+  <app-navbar></app-navbar>
+  <div class="page-body-wrapper container-fluid">
+    <app-sidenav></app-sidenav>
+    <div class="main-panel">
+      <!-- <nav *ngIf="child" class="breadcrumb-nav" aria-label="breadcrumb">-->
+      <nav class="breadcrumb-nav" aria-label="breadcrumb">
+        <ol class="breadcrumb nocolor">
+          <li class="breadcrumb-item item">
+            <a routerLink="/home">{{ description }}</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">
+            {{ title }}
+          </li>
+        </ol>
+      </nav>
+      <div class="content-wrapper">
+        <div class="principal_title shadow">
+          <h1>{{ title }}</h1>
+          <h4 class="center">{{ description }}</h4>
+        </div>
+        <router-outlet></router-outlet>
+        <div
+          *ngIf="!this.router.url.includes('/contact')"
+          class="containerSub shadow"
+        >
+          <div *ngFor="let contact of contacts" class="wrap">
+            <app-menu-card
+              [contact]="contact"
+              (routeShow)="setShow($event)"
+            ></app-menu-card>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

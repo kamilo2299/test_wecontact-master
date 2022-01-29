@@ -1,0 +1,124 @@
+/* You can add global styles to this file, and also import other style files */
+h1, h2, h3{
+    /*font-family: 'Changa One', cursive;*/
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-weight: 500;
+  }
+  h4, h5, h6, p, button, table, input, a, select, button, label{
+    /*font-family: 'Roboto Light', sans-serif;*/
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300 !important;
+  }
+  .underline{
+    text-decoration: underline;
+  }
+.brand-nav{
+    background-color:white;
+    color:white;
+    z-index:11;
+  }
+
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.center{
+text-align: center;
+}
+.left{
+  text-align: left;
+}
+div.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .containerSub{
+    overflow: hidden;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding: 2rem;
+    background-color: white;
+    width: -webkit-fill-available;
+  }
+/* style icons buttoms*/
+
+.add{
+  color:#52a150;
+  font-size:38px;
+  border:none;
+  background: none;
+}
+.delete{
+  color:#f2504d;
+  font-size:18px;
+  border:none;
+  background: none;
+}
+.edit{
+  color:#29b8e8;
+  font-size:18px;
+  border:none;
+  background: none;
+}
+.init{
+  color:#e8ae29;
+  font-size:18px;
+  border:none;
+  background: none;
+}
+.event{
+  color:#d49802;
+  font-size:18px;
+  border:none;
+  background: none;
+}
+.event-button{
+  color:white;
+  border:none;
+  background-color: #d49802;
+}
+.event-title{
+  color:#d49802;
+}
+
+
+/* colors */
+.gray-background{
+background-color: darkgray;
+}
+.brand-button{
+    /*background: #3382bf;*/
+    background-color: #E61E52;
+    text-align: center;
+    color: white;
+    border:none;
+    border-radius: 2rem;
+    max-width: 100%;
+    width: 500px;
+    height: 30px;
+    min-width: fit-content;
+    cursor: pointer;
+  }
+  .principal_title{
+    background-image: linear-gradient(to bottom right, #1bdcee, #0a415f);
+    color:white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    }
+    .details-button{
+        background:  #68C6DE;
+        text-align: center;
+        color:white;
+        border-radius: 2rem;
+        border:none;
+        max-width: 100%;
+        width: 500px;
+        height: 30px;
+        min-width: fit-content;
+      }
+.primary-color{
+    color:#1E2A4F;
+}
+.secunday-color{
+  color:#E61E52;
+}
