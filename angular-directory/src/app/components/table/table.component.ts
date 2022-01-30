@@ -1,9 +1,9 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from "@angular/core";
 
 @Component({
-  selector: 'app-table',
-  templateUrl: './table.component.html',
-  styleUrls: ['./table.component.css']
+  selector: "app-table",
+  templateUrl: "./table.component.html",
+  styleUrls: ["./table.component.css"],
 })
 export class TableComponent implements OnInit {
   //Functions outputs
@@ -12,8 +12,10 @@ export class TableComponent implements OnInit {
   @Output() routeOtherAny = new EventEmitter<any>();
   //Base header
   @Input() titles: String[] = [];
-  @Input() attributes:String[] = [];
+  @Input() attributes: String[] = [];
   @Input() list: any[] = [];
+  @Input() idContact: number = 0;
+  @Input() type: String = "";
   //Attributes that structure the table
   @Input() otherIcon: String = "";
   @Input() checkbox: boolean = false;
@@ -23,21 +25,23 @@ export class TableComponent implements OnInit {
   @Input() itemConditionModifyAttribute: String = "";
   @Input() itemConditionModifyValue: String = "";
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
-    console.log("list",this.list);
-    console.log("attributes",this.attributes);
-    console.log("titles",this.titles);
-    console.log("delete",this.delete);
+    console.log("list", this.list);
+    console.log("attributes", this.attributes);
+    console.log("titles", this.titles);
+    console.log("delete", this.delete);
+    console.log("idco", this.idContact);
+    console.log("- - ", this.type);
   }
-  routeEdit(item : any){
+  routeEdit(item: any) {
     this.routeEditAny.emit(item);
   }
-  routeDelete(item : any){
+  routeDelete(item: any) {
     this.routeDeleteAny.emit(item);
   }
-  routeOther(item : any){
+  routeOther(item: any) {
     this.routeOtherAny.emit(item);
   }
 }

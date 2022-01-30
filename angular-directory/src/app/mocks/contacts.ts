@@ -21,6 +21,18 @@ export const CONTACTS: Contact[] = [
         label: "Office",
         number: "6987451",
       },
+      {
+        id: 3,
+        country: 57,
+        label: "Home",
+        number: "5789642",
+      },
+      {
+        id: 4,
+        country: 57,
+        label: "Office",
+        number: "6987451",
+      },
     ],
     addresses: [
       {

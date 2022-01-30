@@ -11,6 +11,8 @@ import { Contact } from "../../entities/contact";
 export class MenuCardComponent implements OnInit {
   @Input() contact: Contact;
   modal: boolean = false;
+  typePhone: String = "phones";
+  typeAddress: String = "addresses";
 
   //table info for phone numbers.
   titlesPhone: String[] = ["country", "label", "number", "delete", "edit"]; //titles of the table
