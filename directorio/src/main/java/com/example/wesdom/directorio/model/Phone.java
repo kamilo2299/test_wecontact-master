@@ -37,17 +37,19 @@ public class Phone implements Serializable {
 	 * Name of the column COUPHO
 	 * the code number that represents the country
 	 */
+	private String label;
 	
 	/**
 	 * Name of the column LABPHO
 	 * the identifier of category of the phone number
 	 */
+	private Long country;
 	
 	/**
 	 * Name of the column NUMPHO
 	 * the phone number
 	 */
-	
+	private String number;
 	/**
 	 * Name of the column CONPHO
 	 * the phone number
@@ -62,6 +64,30 @@ public class Phone implements Serializable {
 	 */
 	public Phone() {
 		// TODO Auto-generated constructor stub
+	}
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public String getLabel() {
+		return label;
+	}
+	public void setLabel(String label) {
+		this.label = label;
+	}
+	public Long getCountry() {
+		return country;
+	}
+	public void setCountry(Long country) {
+		this.country = country;
+	}
+	public String getNumber() {
+		return number;
+	}
+	public void setNumber(String number) {
+		this.number = number;
 	}
 	
 	/**

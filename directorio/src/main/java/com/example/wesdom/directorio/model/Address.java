@@ -37,12 +37,14 @@ public class Address implements Serializable {
 	 * Name of the column LABADR
 	 * the identifier or type of the address
 	 */
-
+	private String label;
+	
 	
 	/**
 	 * Name of the column ADRADR
 	 * the address
 	 */
+	private String address;
 	
 	/**
 	 * Name of the column CONADR
@@ -60,6 +62,30 @@ public class Address implements Serializable {
 	public Address() {
 		// TODO Auto-generated constructor stub
 	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getLabel() {
+		return label;
+	}
+
+	public void setLabel(String label) {
+		this.label = label;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
 	
 	/**
 	 *  Constructor of the class Address with the attributes by parameter
@@ -73,5 +99,6 @@ public class Address implements Serializable {
  * -----------------------------------------------------------------------------------------------------------------------------------------------------------------
  */
 
+	
 
 }
