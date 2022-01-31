@@ -1,6 +1,7 @@
 import { wrapperAddress } from '../../../entities/wrapperAddress';
 import { Component, OnInit, Input } from "@angular/core";
 import { Router, ActivatedRoute } from "@angular/router";
+import { Location } from '@angular/common';
 //entity
 import { Contact } from "../../../entities/contact";
 
@@ -19,7 +20,8 @@ export class AddressComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     public router: Router,
-    private directoryService: DirectoryService
+    private directoryService: DirectoryService,
+    private location: Location
   ) {}
 
   ngOnInit(): void {
@@ -35,7 +37,7 @@ export class AddressComponent implements OnInit {
   }
 
   save(): void {
-    for (let i = 0; i < this.contact.phones.length; i++) {
+    for (let i = 0; i < this.contact.addresses.length; i++) {
       this.addressesNuevos.addressesID.push(this.contact.addresses[i].id);
       this.addressesNuevos.addressesChanges.push(this.contact.addresses[i].address);
     }
@@ -47,13 +49,7 @@ export class AddressComponent implements OnInit {
     },
     error => console.error(error))
     this.addressesNuevos = new wrapperAddress();
+    this.location.back();
 
-
-
-
-
-    for (let i = 0; i < this.contact.addresses.length; i++) {
-      console.log(this.contact.addresses[i]);
-    }
   }
 }

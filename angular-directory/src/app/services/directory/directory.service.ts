@@ -57,6 +57,7 @@ export class DirectoryService {
 
   setDireccioesNuevos(direccionesNuevos: wrapperAddress) {
     const url = `/cambiarDirecciones`;
+    console.log("idCambios ", direccionesNuevos.addressesID)
     return this.net.post(url, {
       "id": direccionesNuevos.id,
       "idCambios": direccionesNuevos.addressesID,

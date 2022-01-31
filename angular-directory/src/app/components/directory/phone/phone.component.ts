@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from "@angular/core";
 import { Router, ActivatedRoute } from "@angular/router";
+import { Location } from '@angular/common';
 
 //entity
 import { Contact } from "../../../entities/contact";
@@ -20,7 +21,8 @@ export class PhoneComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     public router: Router,
-    private directoryService: DirectoryService
+    private directoryService: DirectoryService,
+    private location: Location
   ) {}
 
   ngOnInit(): void {
@@ -32,7 +34,8 @@ export class PhoneComponent implements OnInit {
     console.log(id);
     this.directoryService.getNewContact(id).subscribe((response) => {
       this.contact = response;
-    });
+    }
+    );
   }
 
   save(): void {
@@ -43,17 +46,17 @@ export class PhoneComponent implements OnInit {
     this.phonesNuevos.id = +this.route.snapshot.paramMap.get("id");
     this.directoryService.setTelefonosNuevos(this.phonesNuevos).subscribe(      
       results => {
-      console.log(results)    
-      this.refresh();        
+      console.log(results)          
 
     },
-    error => console.error(error))
+    error => {
+      console.error(error)
+    }
+
+    )
     this.phonesNuevos = new wrapperPhone();
-    
+    this.location.back();
   }
 
-  refresh(): void {
-    window.location.reload();
-}
 
 }

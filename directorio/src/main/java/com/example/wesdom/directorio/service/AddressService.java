@@ -28,12 +28,11 @@ public class AddressService implements IAddressService{
 		for(int i=0; i<dataAddresses.getIdCambios().size(); i++) {
 			for(int j=0; j<addresses.size(); j++) {
 				if(addresses.get(j).getId() == dataAddresses.getIdCambios().get(i)) {
-					addresses.get(j).setAddress(dataAddresses.getAddresses().get(j));
+					addresses.get(j).setAddress(dataAddresses.getAddresses().get(i));
+					System.out.println("cambia");
 				}
 			}
 		}
-		
-		
 		data.saveAll(addresses);
 	}
 

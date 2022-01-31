@@ -28,7 +28,7 @@ public class PhoneService implements IPhoneService{
 		for(int i=0; i<dataPhones.getIdCambios().size(); i++) {
 			for(int j=0; j<phones.size(); j++) {
 				if(phones.get(j).getId() == dataPhones.getIdCambios().get(i)) {
-					phones.get(j).setNumber(dataPhones.getPhones().get(j));
+					phones.get(j).setNumber(dataPhones.getPhones().get(i));
 				}
 			}
 		}
