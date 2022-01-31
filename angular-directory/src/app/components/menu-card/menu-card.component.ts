@@ -22,7 +22,9 @@ export class MenuCardComponent implements OnInit {
   titlesAddresses: String[] = ["label", "address", "delete", "edit"]; //titles of the table
   attributesAddresses: any[] = [["label"], ["address"]];
 
-  constructor(public router: Router) {}
+  constructor(public router: Router) {
+    this.router.routeReuseStrategy.shouldReuseRoute = () => false;
+  }
 
   ngOnInit() {}
 

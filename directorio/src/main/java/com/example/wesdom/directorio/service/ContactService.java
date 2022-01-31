@@ -32,46 +32,55 @@ public class ContactService implements IContactService{
 	
 
 	@Override
-	public void agregarDatos(WrapperDatos datosNuevos) {
+	public void agregarDatos(List<WrapperDatos> datosNuevos) {
 		// TODO Auto-generated method stub
-		Contact c = new Contact();
-		List<Contact> contactos = (List<Contact>) dataContact.findAll();
-		for(int i=0; i<contactos.size(); i++) {
-			if(contactos.get(i).getId() == datosNuevos.getId()) {
-				c = contactos.get(i);
-			}
-		}
-		try {
-			if(datosNuevos.getPhones().size()>0) {
-				boolean existe = false;
-				List<Phone> phones = (List<Phone>) dataPhone.findAll();
-				for(int i=0; i<datosNuevos.getPhones().size(); i++) {
-					for(int j=0; j<phones.size() && existe == false; j++) {
-						if(phones.get(j).getNumber().contains(datosNuevos.getPhones().get(i))) {
-							c.addPhone(phones.get(j));
-							existe = true;
-						}
-					}
-					existe = false;
+		
+		
+		for(int i=0; i<datosNuevos.size(); i++) {
+			Contact c = new Contact();
+			List<Contact> contactos = (List<Contact>) dataContact.findAll();
+			for(int j=0; j<contactos.size(); j++) {
+				if(contactos.get(j).getId() == datosNuevos.get(i).getId()) {
+					c = contactos.get(j);
 				}
 			}
-			if(datosNuevos.getAddresses().size()>0) {
-				List<Address> addresses = (List<Address>) dataAddress.findAll();
-				for(int i=0; i<datosNuevos.getAddresses().size(); i++) {
-					for(int j=0; j<addresses.size(); j++) {
-						if(addresses.get(j).getAddress().contains(datosNuevos.getAddresses().get(i))) {
-							c.addAddress(addresses.get(j));
+			try {
+				if(datosNuevos.get(i).getPhones().size()>0) {
+					boolean existe = false;
+					List<Phone> phones = (List<Phone>) dataPhone.findAll();
+					for(int j=0; j<datosNuevos.get(i).getPhones().size(); j++) {
+						for(int k=0; k<phones.size() && existe == false; k++) {
+							if(phones.get(k).getNumber().contains(datosNuevos.get(i).getPhones().get(j))) {
+								c.addPhone(phones.get(k));
+								existe = true;
+							}
+						}
+						existe = false;
+					}
+				}
+				if(datosNuevos.get(i).getAddresses().size()>0) {
+					List<Address> addresses = (List<Address>) dataAddress.findAll();
+					for(int j=0; j<datosNuevos.get(i).getAddresses().size(); j++) {
+						for(int k=0; k<addresses.size(); k++) {
+							if(addresses.get(k).getAddress().contains(datosNuevos.get(i).getAddresses().get(j))) {
+								c.addAddress(addresses.get(k));
+							}
 						}
 					}
 				}
+				
+				
+				
+			} catch (Exception e) {
+				// TODO: handle exception
 			}
-			
-			
-			
-		} catch (Exception e) {
-			// TODO: handle exception
+			dataContact.save(c);
 		}
-		dataContact.save(c);
+		
+		
+
+		
+		
 	}
 
 

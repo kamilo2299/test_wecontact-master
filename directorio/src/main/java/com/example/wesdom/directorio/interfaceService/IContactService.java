@@ -11,6 +11,6 @@ public interface IContactService {
 	Contact find(Long idUsuario);
 
 
-	void agregarDatos(WrapperDatos datosNuevos);
+	void agregarDatos(List<WrapperDatos> datosNuevos);
 
 }

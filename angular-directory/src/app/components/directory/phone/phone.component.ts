@@ -43,14 +43,17 @@ export class PhoneComponent implements OnInit {
     this.phonesNuevos.id = +this.route.snapshot.paramMap.get("id");
     this.directoryService.setTelefonosNuevos(this.phonesNuevos).subscribe(      
       results => {
-      console.log(results)            
+      console.log(results)    
+      this.refresh();        
 
     },
     error => console.error(error))
     this.phonesNuevos = new wrapperPhone();
-
+    
   }
 
-
+  refresh(): void {
+    window.location.reload();
+}
 
 }

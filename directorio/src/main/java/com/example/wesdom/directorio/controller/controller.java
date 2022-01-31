@@ -67,7 +67,7 @@ public class controller {
 	
 	@PostMapping(value="/agregarDatos")
 	public void agregarDatos(
-			@RequestBody final WrapperDatos data
+			@RequestBody final List<WrapperDatos> data
 			) {
 		contactService.agregarDatos(data);		
 	}
