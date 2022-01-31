@@ -1,0 +1,21 @@
+[{
+    "id": 1,
+    "phones": ["5789642", "6987451"],
+    "addresses": ["Street 5938 - lombady","Street okla 018374"]
+},
+{
+    "id": 2,
+    "phones": ["5789642", "6987451"],
+    "addresses": ["Street 98345 - int 501"]
+}, 
+{
+    "id": 3,
+    "phones": ["5789642", "6987451"],
+    "addresses": ["Street 98345 - int 501"]
+},
+{
+    "id": 4,
+    "phones": [],
+    "addresses": ["parkway 78 - apto 1003"]
+}
+]

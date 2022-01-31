@@ -1,0 +1,14 @@
+INSERT INTO CONDOM (name, surname, photo, birthday) values ('felipe', 'perez', 'image_1.jpg', '09/08/1968');
+INSERT INTO CONDOM (name, surname, photo, birthday) values ('camilo', 'lopez', 'image_2.jpg', '12/03/1992');
+INSERT INTO CONDOM (name, surname, photo, birthday) values ('Andrea', 'Rodriguez', 'image_3.jpg', '12/03/1992');
+INSERT INTO CONDOM (name, surname, photo, birthday) values ('Claudia', 'Torres', 'image_4.jpg', '12/03/1992');
+
+INSERT INTO ADRDOM (address, label) values ('Street 5938 - lombady', 'Home');
+INSERT INTO ADRDOM (address, label) values ('Street okla 018374', 'Office');
+INSERT INTO ADRDOM (address, label) values ('Street 98345 - int 501', 'Home');
+INSERT INTO ADRDOM (address, label) values ('parkway 78 - apto 1003', 'Apto');
+
+INSERT INTO PHODOM (country, label, number) values (57, 'Home', '5789642');
+INSERT INTO PHODOM (country, label, number) values (57, 'Office', '6987451');
+INSERT INTO PHODOM (country, label, number) values (57, 'Vacations', '6987451');
+INSERT INTO PHODOM (country, label, number) values (57, 'Apto', '6987451');
