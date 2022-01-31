@@ -1,3 +1,13 @@
 <div *ngFor="let address of contact.addresses">
   <input class="form-control" [(ngModel)]="address.address" />
 </div>
+<div>
+  <button
+    class="item-btn btn btn-success"
+    type="button"
+    name="buttonSave"
+    (click)="save()"
+  >
+    Save
+  </button>
+</div>

@@ -141,8 +141,13 @@ public class Contact implements Serializable{
 		this.addresses = addresses;
 	}
 
-	
+	public void addPhone(Phone e) {
+		this.phones.add(e);
+	}
 
+	public void addAddress(Address e) {
+		this.addresses.add(e);
+	}
 
 /*
  * -----------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -9,5 +9,11 @@ export class Contact{
     phones: Phone[]; //list of phone numbers 
     addresses: Address[]; // list of addresses
     birthday: string; //date of contact's birthday length 10
+
+    
+  constructor() {
+    this.phones = Array<Phone>();
+    this.addresses = Array<Address>();
+  }
   }
   

@@ -1,3 +1,4 @@
+import { wrapperAddress } from '../../../entities/wrapperAddress';
 import { Component, OnInit, Input } from "@angular/core";
 import { Router, ActivatedRoute } from "@angular/router";
 //entity
@@ -12,7 +13,9 @@ import { DirectoryService } from "../../../services/directory/directory.service"
   styleUrls: ["./address.component.css"],
 })
 export class AddressComponent implements OnInit {
-  @Input() contact: Contact;
+  @Input() contact: Contact = new Contact();
+
+  addressesNuevos: wrapperAddress = new wrapperAddress();
   constructor(
     private route: ActivatedRoute,
     public router: Router,
@@ -26,10 +29,31 @@ export class AddressComponent implements OnInit {
   getContact(): void {
     const id = +this.route.snapshot.paramMap.get("id");
     console.log(id);
-    this.directoryService.getContact(id).subscribe((response) => {
+    this.directoryService.getNewContact(id).subscribe((response) => {
       this.contact = response;
     });
+  }
 
-    console.log("address" + this.contact.addresses.length);
+  save(): void {
+    for (let i = 0; i < this.contact.phones.length; i++) {
+      this.addressesNuevos.addressesID.push(this.contact.addresses[i].id);
+      this.addressesNuevos.addressesChanges.push(this.contact.addresses[i].address);
+    }
+    this.addressesNuevos.id = +this.route.snapshot.paramMap.get("id");
+    this.directoryService.setDireccioesNuevos(this.addressesNuevos).subscribe(      
+      results => {
+      console.log(results)            
+
+    },
+    error => console.error(error))
+    this.addressesNuevos = new wrapperAddress();
+
+
+
+
+
+    for (let i = 0; i < this.contact.addresses.length; i++) {
+      console.log(this.contact.addresses[i]);
+    }
   }
 }

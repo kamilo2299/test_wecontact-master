@@ -1,3 +1,14 @@
 <div *ngFor="let phone of contact.phones">
   <input class="form-control" [(ngModel)]="phone.number" />
 </div>
+<div>
+  <button
+    class="item-btn btn btn-success"
+    type="button"
+    name="buttonSave"
+    (click)="save()"
+  >
+    Save
+  </button>
+
+</div>
